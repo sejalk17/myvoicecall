@@ -1,0 +1,49 @@
+.ag-courses-item_bg {
+    height: 128px;
+    width: 128px;
+    background-color: #f9b234;  
+    z-index: 1;
+    position: absolute;
+    top: -75px;
+    right: -75px;  
+    border-radius: 50%;  
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+  .main-card:hover .ag-courses-item_bg {
+    -webkit-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+  }
+ .main-card:nth-child(1) .ag-courses-item_bg {
+    background-color: #3ecd5e;
+  }
+ .main-card:nth-child(3) .ag-courses-item_bg {
+    background-color: #e44002;
+  }
+ .main-card:nth-child(4) .ag-courses-item_bg {
+    background-color: #952aff;
+  }
+ .main-card:nth-child(5n) .ag-courses-item_bg {
+    background-color: #cd3e94;
+  }
+ .card:nth-child(6n) .ag-courses-item_bg {
+    background-color: #4c49ea;
+  }
+  
+  .avatar-title i{
+    height: 80px;
+    width: 80px;
+  }
+  .z-2{
+    z-index: 2;
+    position: relative;
+  }
+  .text-bold-00{
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
